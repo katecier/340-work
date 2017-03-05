@@ -7,10 +7,77 @@
 
 <h1>
   <center>Mountain Survey</center></h1>
- <center><a href="https://owlcation.com/stem/TopTenMountainRanges"><img src="./images/mountain_label.png" alt="Mountain Icon" title="Mountain Icon" width="550" height="150"></center> </a>
+ <center> <a href="https://owlcation.com/stem/TopTenMountainRanges"><img src="./images/mountain_label.png" alt="Mountain Icon" title="Mountain Icon" width="550" height="150"> </a> </center>
 </head>
 
+<h3> Please answer the following questions: </h3>
 
-   <form class="buff_form" action="#" method="get">
+ <fieldset>
+  <p>
+      Gender:
+      <input id="female" type="radio" name="gender" value="f" autofocus />
+      <label for="female">Female</label>
+      <input id="male" type="radio" name="gender" value="m">
+      <label for="male">Male</label>
+  </p>
+  <p>
+    Email:
+    <input type="email" name="email" required />
+    <input type="submit" value="Submit" />
+      <label for="email">Email</label>
+  </p>
+</fieldset>
+
+<h3> Your preferences:</h3>
+  <p>
+    <label for="name">Which is the best mountain range to explore?</label>
+           <input type="text" name="name" placeholder="Enter range" autofocus required>
+           <br />
+         </p>
+
+         <p>
+         <center> <a> <img src="./images/mountain_map.jpg" alt="Map Icon" title="Map of Mountains" width="400" height="255"> </a> </center>
+
+       </p>
+
+           <p>
+             <form action="http://www.example.com/comments.php">
+     <h3>Describe the ideal mountain trekking trip.  </h3>
+     <textarea name="description" cols="20" rows="4" style="min-width:100%">
+     Enter your answer...
+     </textarea>
+ </form>
+</p>
+
+<p>
+
+  <h3>Select the season(s) you'd prefer to travel during: </h3>
+
+      <input type="checkbox" name="preference" value="winter" /> Winter<br />
+        <input type="checkbox" name="preference" value="spring" /> Spring<br />
+        <input type="checkbox" name="preference" value="summer"  checked /> Summer<br />
+        <input type="checkbox" name="preference" value="fall" /> Fall<br />
+    </p>
+<p>
+  <h3> Select a mountain range: </h3>
+    <select name="range">
+    	<option value="andes">Andes</option>
+    	<option value="rockies">Rocky Mountains</option>
+    	<option value="himalayas">Himalayas</option>
+    	<option value="cascades">Cascades</option>
+    	<option value="appalachian">Appalachian</option>
+    	<option value="alps" selected>Alps</option>
+    </select>
+  </p>
+
+  <p>
+  <center> <a> <img src="./images/airplane_mountains.png" alt="Plane Icon" title="Plane over Mountains" width="500" height="200"> </a> </center>
+
+</p>
+
+
+
+
+
 
 </html>
