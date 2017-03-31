@@ -27,20 +27,21 @@ h1 {
 .quote {font-style: italic;}
 
 .hover-element {
-    font-size: 1em;
+    font-size: 1.5em;
     background-color: #f7cac9;
-    color: #c4c8c4;
+    letter-spacing: 8px;
+    color: #000000;
     padding: 1em;
-    text-align: right;
+    text-align: center;
 }
 .hover-element:hover {
     font-size: 4em;
-    background-image: url(../imgs/puppy.jpg);
+    background-color: #4B71F3;
     color: rgb(255, 245, 0);
     text-transform: uppercase;
     font-weight: bold;
     text-align: justify;
     letter-spacing: 0.2em;
     padding: 0em;
-    height: 75%;
+    height: 60%;
 }
