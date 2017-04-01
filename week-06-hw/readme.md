@@ -23,4 +23,4 @@ I've learned that I really enjoy the design element of these assignments and fin
 
 Multimedia is so important these days and I'm glad I now have the ability to both make videos and post them online. This would be good for resume building on a website.
 
-The review at the end of the lesson was very helpful because I'd forgotten small things which is the hardest part of writing HTML for me.   
+The review at the end of the lesson was very helpful because I'd forgotten small things which is the hardest part of writing HTML for me.
