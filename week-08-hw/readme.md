@@ -13,12 +13,12 @@ Once I figured out that you could use the DIV element to make different portions
 I decided to make my page about Spring and its correlation with happiness- a news story only because we just had the Spring Equinox.  This allowed me to pick colors from a spring pallette.  I ended up using light pastels that I chose from http://htmlcolorcodes.com.  I decided that it was easier to use the HEX codes.
 
 I used this example to base my colors off of:
-![Image](images/colors.jpeg)
+![Image](images/colors.png)
 
-I chose not use the kerning element or element in my tages because teh indent element I used on the initial body statement was enough to make the paragraphs organized and uniform. 
+I chose not use the kerning element or element in my tags because teh indent element I used on the initial body statement was enough to make the paragraphs organized and uniform.
 
 
 
 ## Take Away:
 These past two weeks have been super frustrating but now that I am more familiar with the link between CSS and HTML I am enjoying the freedom to makes things LOOK cool on a web page.  I used the HOVER element in my homework and think it is really cool that you can code something that the user can interact with.  I am looking forward to lerning about even more CSS elements that will make a website look more professional and elegant than my first one!
-![Image](images/homework.jpeg)
+![Image](images/homework.png)
