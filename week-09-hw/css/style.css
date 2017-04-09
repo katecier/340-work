@@ -123,7 +123,7 @@ header {
     font-family: 'Open Sans', sans-serif
     text-indent: 1.5em;
     line-height: 1.5em;
-    text-align: inherit; }
+    text-align: justify; }
 
     .side.menuitem {
       width: 120px;
