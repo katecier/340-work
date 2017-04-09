@@ -1,0 +1,156 @@
+body {
+font-family: 'Open Sans', sans-serif;
+font-family: 'Abel', sans-serif;
+background-color: #F2F9F1;}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+.menu-container {
+    background-color: #5C715E;
+    margin: 0;
+    padding: 0;
+  }
+.menu-item {
+
+    display: inline-block;
+    margin: 0;
+
+    text-align: center;
+    background-color: #26272b;
+    padding: 0.5em 0;
+    width: 30%;
+
+}
+
+.menu-item a {
+    color: #F2F9F1;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #B6CDBD;
+}
+
+.dropdown {
+    display: inline-block; margin: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 8em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #F2F9F1;
+    background-color: #B6CDBD;
+}
+
+.main-header {
+    margin: auto;
+    background-color: #5C715E;
+    height: 80px;
+
+
+}
+
+.site-name {
+
+  background-color: #5C715E;
+  height: auto;
+    float: center;
+    padding: 10px;
+
+    font-weight: lighter;
+    font-size: 3em;
+    color: #F2F9F1;
+  text-align: center;
+}
+
+
+.site-logo {
+
+    float: right;
+    padding: 5px;
+    margin-right: 0em;
+}
+
+.site-logo img {
+    height: 55px;
+}
+
+}
+.main-container h1 {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+    padding: 1em;
+    margin-top: auto;
+    color: #26272b;
+
+
+
+
+}
+
+.main-container p {
+    padding: 1em 1em;
+    font-family: 'Open Sans', sans-serif
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    text-align: inherit; }
+
+    .side.menuitem {
+      width: 120px;
+         height: auto;
+    display: block;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0.5em;
+    margin: 0.1em 0;
+    text-decoration: none;
+    background-color: #26272b;
+    color: #fff;
+}
+
+.side.menuitem {
+    display: block;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0.5em;
+    margin: 0.1em 0;
+    text-decoration: none;
+    background-color: #26272b;
+    color: #fff;
+
+}
+
+.side.menuitem:hover {
+    background-color: #5C715E;
+    color: #fff;
+}
