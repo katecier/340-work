@@ -77,17 +77,17 @@ background-color: #E1EFE6
 
 
   .c1 {
-    width: 200%;
-order: 2;
+    width: 50%;
+
 
   }
   .c2 {
-    width: 50%;
-order: 1;
+    width: 25%;
+
 
   }
 
   .c3 {
-    width: 50%;
-    order: 3;
+    width: 25%;
+
 }
