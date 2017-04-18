@@ -52,21 +52,20 @@ background-color: #E1EFE6
 @media (min-width: 600px) {
   .c1 {
     width: 30%;
-  
-    order: 1;
+
   }
 
   .c2 {
     width: 30%;
 
-    order: 2;
+
   }
 
   .c3 {
     width: 30%;
 
 
-    order: 3;
+
   }
 }
 
@@ -79,13 +78,13 @@ order: 1;
 
   }
   .c2 {
-    width: 100%;
+    width: 50%;
 order: 2;
 
   }
 
   .c3 {
-    width: 100%;
+    width: 50%;
     order: 3;
 
 
