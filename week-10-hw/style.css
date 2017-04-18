@@ -50,20 +50,20 @@ background-color: #E1EFE6
 
 @media (min-width: 600px) {
   .c1 {
-    width: 34%;
+    width: 100%;
     -webkit-order: 2;
     order: 2;
   }
 
   .c2 {
-    width: 34%;
-    -webkit-order: 1;
+    width: 100%;
+
     order: 1;
   }
 
   .c3 {
-    width: 32%;
-    -webkit-order: 3;
+    width: 100%;
+
     order: 3;
   }
 }
@@ -72,15 +72,19 @@ background-color: #E1EFE6
 @media (min-width: 850px) {
 
   .c1 {
-    width: 34%;
-    -webkit-order: 2;
+    width: 100%;
+
     order: 2;
   }
   .c2 {
-    width: 34%;
+    width: 100%;
+
+    order: 1;
   }
 
   .c3 {
-    width: 32%;
+    width: 100%;
+
+    order: 3;
   }
 }
