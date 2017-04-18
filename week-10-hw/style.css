@@ -1,0 +1,80 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+background-color: #F2F9F1;}
+
+p {
+    text-indent: 25px;
+}
+
+h1 {font-family: 'Josefin Slab', serif;}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.lower-header {
+    margin: 0;
+    background-color: #676D69;
+    height: 80px;
+}
+
+.site-name {
+  font-family: 'Josefin Slab', serif;
+    text-align: center;
+    padding: 20px;
+    margin-left: 0.25em;
+    font-weight: lighter;
+    font-size: 2.6em;
+    color: #fff;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1 {width: 100%;
+background-color: #E1EFE6
+}
+ .c2 {width: 100%;
+ background-color: #A4AEA8
+ }
+ .c3 {width: 100%;
+ background-color: #676D69
+ }
+
+
+@media (min-width: 600px) {
+  .c1 {
+    width: 60%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .c2 {
+    width: 40%;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .c3 {
+    width: 100%;
+    -webkit-order: 3;
+    order: 3;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .c2 {
+    width: 20%;
+  }
+
+  .c3 {
+    width: 20%;
+  }
+}
