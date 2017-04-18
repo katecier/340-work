@@ -77,8 +77,8 @@ background-color: #E1EFE6
 
 
   .c1 {
-    width: 100%;
-order: 3;
+    width: 200%;
+order: 1;
 
   }
   .c2 {
@@ -89,5 +89,5 @@ order: 2;
 
   .c3 {
     width: 50%;
-    order: 1;
+    order: 3;
 }
