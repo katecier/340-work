@@ -50,27 +50,34 @@ background-color: #E1EFE6
 
 
 @media (min-width: 600px) {
+
+  .c3 {
+    width: 100%;
+
+
+
+  }
   .c1 {
-    width: 30%;
+    width: 100%;
 
   }
 
   .c2 {
-    width: 30%;
+    width: 100%;
 
 
   }
 
-  .c3 {
-    width: 30%;
 
-
-
-  }
 }
 
 
 @media screen and (min-width: 1015px) {
+
+  .c3 {
+    width: 50%;
+    order: 3;
+}
 
   .c1 {
     width: 100%;
@@ -82,11 +89,3 @@ order: 1;
 order: 2;
 
   }
-
-  .c3 {
-    width: 50%;
-    order: 3;
-
-
-  }
-}
