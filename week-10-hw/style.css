@@ -76,16 +76,16 @@ background-color: #E1EFE6
 
   .c3 {
     width: 50%;
-    order: 1;
+    order: 3;
 }
 
   .c1 {
     width: 100%;
-order: 2;
+order: 1;
 
   }
   .c2 {
     width: 50%;
-order: 3;
+order: 2;
 
   }
