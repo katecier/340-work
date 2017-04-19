@@ -21,7 +21,7 @@ header {
     background-color: #676D69;
     height: auto;;
     display: flex;
-
+text-align: center;
     flex-wrap: wrap;
     width: inherit;
 }
