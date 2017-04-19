@@ -16,9 +16,14 @@ header {
 }
 
 .lower-header {
+
     margin: 0;
     background-color: #676D69;
     height: 80px;
+    display: flex;
+
+    flex-wrap: wrap;
+    width: inherit;
 }
 
 .site-name {
@@ -89,5 +94,6 @@ background-color: #E1EFE6
 
   .c3 {
     width: 50%;
+    height: auto;
 
 }
