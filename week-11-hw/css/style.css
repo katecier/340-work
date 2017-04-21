@@ -16,17 +16,17 @@ body {
 
 .mountains {
     min-height: 100vh;
-    background-image: url("imgs/mountains.jpg");
+    background-image: url("images/mountains.jpg");
 }
 
 .northernlights {
     min-height: 400px;
-    background-image: url("imgs/northernlights.jpg");
+    background-image: url("images/northernlights.jpg");
 }
 
 .waterfall {
     min-height: 400px;
-    background-image: url("imgs/waterfall.jpg");
+    background-image: url("images/waterfall.jpg");
 }
 
 .hero {
@@ -69,12 +69,11 @@ body {
 h3 {
     color: #111;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Raleway', sans-serif;
     letter-spacing: 5px;
 }
 
 
-/* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
