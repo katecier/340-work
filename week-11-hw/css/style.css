@@ -21,12 +21,12 @@ body {
 
 .northernlights {
     min-height: 400px;
-    background-image: url("images/northernlights.jpg");
+    background-image: url("images/northernlights.png");
 }
 
 .waterfall {
     min-height: 400px;
-    background-image: url('images/waterfall.jpg');
+    background-image: url('images/waterfall.png');
 }
 
 .hero {
@@ -76,7 +76,7 @@ h3 {
 
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .mountains, .northernlights, .waterfall {
         background-attachment: scroll;
     }
 }
