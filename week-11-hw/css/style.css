@@ -15,7 +15,7 @@ body {
 }
 
 .mountains {
-    min-height: 100vh;
+    min-height: inherit;;
     background-image: url("images/mountains.jpg");
 }
 
@@ -26,7 +26,7 @@ body {
 
 .waterfall {
     min-height: 400px;
-    background-image: url("images/waterfall.jpg");
+    background-image: url('images/waterfall.jpg');
 }
 
 .hero {
